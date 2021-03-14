@@ -1,12 +1,12 @@
 import React from "react";
 
-import './PostStatusFilter.css';
+import './PostStatusFilter.scss';
 
 const PostStatusFilter = () => {
     return (
         <div className="btn-group">
-            <button></button>
-            <button></button>
+            <button type="button" className="btn btn-info">All</button>
+            <button type="button" className="btn btn-outline-secondary">Liked</button>
         </div>
     )
 }
